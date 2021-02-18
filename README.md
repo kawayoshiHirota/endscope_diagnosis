@@ -38,18 +38,18 @@ exptmgr.pyを行うことで一括して学習を行うことができる．
 example:
 ```
 cd Resnet_tf2/sorce
-python monitor.py ../text/3n100/3n100_01.txt ./config.ini
+python monitor.py ../text/3N100/3N100_01.txt ./config.ini
 ```
 ```
 cd Resnet_tf2/sorce
-python exptmgr.py ../text/3n100 ./config.ini -c
+python exptmgr.py ../text/3N100 ./config.ini -c
 ```
 
 ## 検証
 inspector.pyを用いて識別が不正解だった画像のラベルとモデルの出力結果をリスト化できる.
 ```
 cd Resnet_tf2/sorce
-python inspector.py ../products/product_3N100/wh5/3N100_01_w.h5 ../text/3n100/3n100_01.txt
+python inspector.py ../products/product_3N100/wh5/3N100_01_w.h5 ../text/3N100/3N100_01.txt
 ```
 gradcam.pyはGradCAMを行うためのスクリプトである．
 ```
